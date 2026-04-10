@@ -10,7 +10,8 @@ venv/
 
 # Node
 node_modules/
-dist/
+# Keep frontend/dist in git so the app is deployable from a clone
+# dist/
 .vite/
 
 # Env
